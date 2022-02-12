@@ -1,3 +1,4 @@
+/* Header section style start */
 .header-section {
   background-color: rgb(199, 184, 184);
   display: flex;
@@ -5,29 +6,36 @@
 .left-primary-text-fast {
   font-size: 40px;
   text-align: center;
-  color: rgb(100, 226, 152);
+  color: #B83B5E;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .left-primary-text-second {
   font-size: 40px;
   text-align: center;
-  color: rgb(50, 96, 223);
+  color: #064663;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .left-pain-text-fast {
   padding: 10px;
   font: 1em sans-serif;
   text-align: justify;
-  color: rgb(87, 82, 82);
+  color: #393E46;
+  font-family: 'Redressed', cursive;
+  font-size: 25px;
 }
-.header-section-botton {
+.header-section-botton {                    /* this style use both botton */
   text-align: center;
   text-decoration: none;
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
-  background-image: linear-gradient(to right, tomato, orange);
-  margin: 0 auto;
+  background-image: linear-gradient(to right, #AA96DA, #FC5185);
+  margin: 10px;
   
 }
+/* Header section style end */
+
+/* second-section style start */
 .right-section-image {
   margin-right: 0px;
   max-height: 350;
@@ -40,6 +48,36 @@
 .left-section-image {
   max-height: 400px;
 }
+.right-section-text-fast{
+  color: #522546;
+  font-family: 'Anton', sans-serif;
+}
+.right-section-text-second{
+  color: #E23E57;
+  font-size: 20px;
+font-family: 'Redressed', cursive;
+
+}
+/* second-section style end */
+
+/* middle-section style start */
+.middle-section-text{
+  background-image: linear-gradient(to right, #9145B6, #FFD07F);
+}
+.recipies{
+  text-align: center;
+  color: #040303;
+  font-family: 'Supermercado One', cursive;
+
+}
+.recipies-name{
+  text-align: center;
+  color: #51050F;
+  text-decoration: solid;
+  font-family: 'Supermercado One', cursive;
+  font-size: 22px;
+
+}
 .middle-section {
   box-sizing: border-box;
 }
@@ -51,4 +89,36 @@
 .middle-section-Recipie {
   float: left;
   width: 33.33%;
+  box-shadow: #33425B;
+  box-shadow: 5px;
 }
+.middle-section-text-h1{
+  color: #3D0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.middle-section-text-p{
+  color: #080116;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  text-align: justify;
+  padding: 4px;
+}
+/* middle-section style end */
+
+/* footer style start */
+.footer{
+background-color: darkgrey;
+}
+.footer-text{
+  text-align: center;
+  color: rgb(26, 14, 14);
+}
+.footer-color-text{
+  color: orangered;
+}
+.copy{
+  text-align: center;
+  color: rgb(114, 69, 69);
+}
+/* footer style end */
